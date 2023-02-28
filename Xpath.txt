@@ -1,0 +1,186 @@
+................................ Xpath Flipkart...........................................................................
+
+1.Top Offers:-
+		
+html/body/div/div[2]/div/div/div[1]/a/div[1]/img....image
+		
+html/body/div/div[2]/div/div/div[1]/a/div[2]....text
+
+2.Mobile & Tabletes:-
+			
+html/body/div/div/div[2]/div/div/div[2]/a/div[1]/img....image
+			
+html/body/div/div/div[2]/div/div/div[2]/a/div[2]....text
+
+3.Electronics:-
+		
+html/body/div/div/div[2]/div/div/div[3]/a/div[1]/div/img....image
+		
+html/body/div/div/div[2]/div/div/div[3]/a/div[2]/div........text
+
+
+
+4.Tv & Appliances:-
+			
+html/body/div/div/div[2]/div/div/div[4]/a/div[1]/div/img....image
+			
+html/body/div/div/div[2]/div/div/div[4]/a/div[2]/div.....text
+
+
+
+5.Fashion:-
+	
+html/body/div/div/div[2]/div/div/div[5]/a/div[1]/div/img....image
+	
+html/body/div/div/div[2]/div/div/div[5]/a/div[1]/div...text
+
+
+
+6.Beauty:-
+	
+html/body/div/div/div[2]/div/div/div[6]/a/div[1]/div/img....image
+	
+html/body/div/div/div[2]/div/div/div[6]/a/div[1]/div....text
+
+
+
+7.Home & Furniture:-
+			
+html/body/div/div/div[2]/div[1]/div/div[7]/a/div[1]/img.....image
+			
+html/body/div/div/div[2]/div[1]/div/div[7]/a/div[1]/div[2]....text
+
+
+
+8.Flights:-
+	
+html/body/div/div/div[2]/div/div/div[8]/a/div[1]/div/img....image
+	
+html/body/div/div/div[2]/div/div/div[8]/a/div[1]/div....text
+
+
+
+9.Grocery:-
+	
+html/body/div/div/div[2]/div/div/div[9]/a/div[1]/div/img....image
+	
+html/body/div/div/div[2]/div/div/div[9]/a/div[1]/div....text
+
+................................................. corelated Xpath.......................................................
+
+1)Grocery
+//div[2]/div/div/div[1]/a/div[1]/div/img---->(Image)
+//div[2]/div/div/div[1]/a/div[2]---->(Text)
+
+2)Mobiles & tablets
+//div[2]/div/div/div[2]/a/div[1]/div/img----->(Image)
+//div[2]/div/div/div[2]/a/div[2]----->(Text)
+
+
+3)Fashion
+//div[2]/div/div/div[3]/a/div[1]/div/img---->(Image)
+//div[2]/div/div/div[3]/a/div[2]---->(Text with dropdown)
+
+4)Electronics
+//div[2]/div/div/div[4]/a/div[1]/div/img---->(Image)
+//div[2]/div/div/div[4]/a/div[2]---->(Text with dropdown)
+
+5)Home & Furniture
+//div[2]/div/div/div[5]/a/div[1]/div/img---->(Image)
+//div[2]/div/div/div[5]/a/div[2]---->(Text with dropdown)
+
+6)Appliances
+//div[2]/div/div/div[6]/a/div[1]/div/img---->(Image)
+//div[2]/div/div/div[6]/a/div[2]----->(Text)
+
+7)Travel
+//div[2]/div/div/div[7]/a/div[1]/div/img---->(Image)
+//div[2]/div/div/div[7]/a/div[2]----->(Text)
+
+8)Top Offers
+//div[2]/div/div/div[8]/a/div[1]/div/img---->(Image)
+//div[2]/div/div/div[8]/a/div[2]----->(Text)
+
+9)Beauty,Toys & more
+//div[2]/div/div/div[9]/a/div[1]/div/img---->(Image)
+//div[2]/div/div/div[9]/a/div[2]---->(Text with dropdown)
+
+10)Two Wheelers
+//div[2]/div/div/div[10]/a/div[1]/div/img---->(Image)
+//div[2]/div/div/div[10]/a/div[2]---->(Text with dropdown)
+
+.................................................... Attribute with not img and text  ...................................
+
+
+
+//Grocery
+//input[@class!='_396cs4']   //img
+//input[@class!='xtXmba']    //text
+
+//Mobiles
+//input[@class!='_396cs4']   //img
+//input[@class!='xtXmba']    //text
+
+//Fashion
+//input[@class!='_396cs4']   //img
+//input[@class!='xtXmba']    //text
+
+//Electronics
+//input[@class!='_396cs4']   //img
+//input[@class!='xtXmba']    //text
+
+//Home
+//input[@class!='_396cs4']   //img
+//input[@class!='xtXmba']    //text
+
+//Appliances
+//input[@class!='_396cs4']   //img
+//input[@class!='xtXmba']    //text
+
+//Travel
+//input[@class!='_396cs4']   //img
+//input[@class!='xtXmba']    //text
+
+//Topoffers
+//input[@class!='_396cs4']   //img
+//input[@class!='xtXmba']    //text
+
+//Beauty
+//input[@class!='_396cs4']   //img
+//input[@class!='xtXmba']    //text
+
+
+//Twowheelers
+//input[@class!='_396cs4']   //img
+//input[@class!='xtXmba']    //text
+
+....................................Xpath by attribute Flipkart................................................
+
+//img[@alt='Top Offers']
+//img[@alt='Mobiles & Tablets']
+//img[@alt='Electronics']
+//img[@alt='TVs & Appliances']
+//img[@alt='Fashion']
+//img[@alt='Beauty']
+//img[@alt='Home & Furniture']
+//img[@alt='Flights']
+//img[@alt='Grocery']
+
+.................................... Not operator...............................................................
+
+//input[@type='button']------>A button
+
+//input[@type='text'not@ value='A']------>No value
+
+//input[@ value='B']------>B text
+
+//input[@type="text"]------>A & B text
+
+//input[@value='B'not@ type='button']------>No value
+
+//input[@value='A']------>A text & A button
+
+//input------>ABA
+
+.................................................................................................................
+
